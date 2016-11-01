@@ -1,0 +1,18 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    // "terminal.integrated.shellArgs.linux": ["-l"],
+
+    // exclude these files from the files
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": true
+    },
+    "editor.formatOnType": true,
+    "editor.wordWrap": true,
+    "editor.renderIndentGuides": true,
+    "files.trimTrailingWhitespace": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false
+}
